@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1f2833;
+}
+
+:root {
+  --azul-pergunta: #40e7f1;
+  --branco-resposta: #ffffff;
+  --amarelo-button: #ffba31;
+  --caixa-resposta: rgba(255, 255, 255, 0);
+  --borda-caixa: #ffffff;
+}

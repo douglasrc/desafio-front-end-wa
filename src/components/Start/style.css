@@ -1,4 +1,4 @@
-.home-container {
+.start-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,7 +9,7 @@
   margin: 0 auto;
 }
 
-.home-content {
+.start-content {
   display: flex;
   color: var(--azul-pergunta);
   width: 100%;
@@ -19,46 +19,32 @@
   padding: 40px;
 }
 
-.home-info h1 {
+.start-info h2 {
+  text-align: center;
+  margin-bottom: 10px;
   font-size: 50px;
 }
 
-.home-info p {
+.start-info p {
   font-size: 25px;
 }
 
-.home-form label,
-input {
-  display: flex;
-}
-
-.home-form label {
-  font-size: 20px;
-  margin-bottom: 5px;
-}
-
-.home-form input {
-  margin-bottom: 35px;
-  height: 40px;
-  width: 350px;
-  border-radius: 5px;
-  border: 1px solid #ffffff;
-  background: transparent;
-  color:#ffffff;
-  font-size: 20px;
-  padding-left: 8px;
-}
-
-.home-form {
+.start-form {
   display: flex;
   align-items: center;
+  justify-content: center;
+  gap: 1rem;
   margin-left: 25px;
+  margin-top: 20px;
 }
 
-.home-button {
+.start-button {
+  width: 200px;
+}
+
+.start-icon {
   text-decoration: none;
   color: #1f2833;
   display: flex;
   font-weight: 600;
-  
 }

@@ -1,12 +1,9 @@
+import Routes from "./Routes";
+
 import "./global.css";
-import { Home } from "./components/Home";
 
 function App() {
-  return (
-    <>
-    <Home/>
-    </>
-  );
+  return <Routes />;
 }
 
 export default App;

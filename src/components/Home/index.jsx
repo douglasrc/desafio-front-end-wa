@@ -32,11 +32,12 @@ export function Home() {
 
             <label>Número de Questões</label>
             <input type="number" />
-            <ButtonHome>
-              <Link to="/Start" className="home-button">
+
+            <Link to="/Start" className="home-button">
+              <ButtonHome>
                 Proximo <NavigateNextIcon />
-              </Link>
-            </ButtonHome>
+              </ButtonHome>
+            </Link>
           </form>
         </div>
       </section>

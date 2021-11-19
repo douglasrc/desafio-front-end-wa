@@ -25,16 +25,17 @@ export function Start() {
             questões click no botão Cancel
           </p>
           <form className="start-form">
-            <ButtonStart className="start-button">
-              <Link to="/Start" className="start-icon">
+            <Link to="/quiz" className="start-icon">
+              <ButtonStart className="start-button">
                 Start <NavigateNextIcon />
-              </Link>
-            </ButtonStart>
-            <ButtonStart className="start-button">
-              <Link to="/" className="start-icon">
+              </ButtonStart>
+            </Link>
+
+            <Link to="/" className="start-icon">
+              <ButtonStart className="start-button">
                 Cancel <CloseIcon />
-              </Link>
-            </ButtonStart>
+              </ButtonStart>
+            </Link>
           </form>
         </div>
       </section>

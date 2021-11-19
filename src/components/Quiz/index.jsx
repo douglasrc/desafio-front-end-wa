@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
 import Button from "@material-ui/core/Button";
 import NavigateNextIcon from "@material-ui/icons/NavigateNext";
+import Radio from "@material-ui/core/Radio";
+import RadioGroup from "@material-ui/core/RadioGroup";
+import FormControlLabel from "@material-ui/core/FormControlLabel";
 import { styled } from "@material-ui/styles";
 
 import "./style.css";
@@ -21,11 +24,19 @@ export function Quiz() {
           <h2>1. Qualquer Coisa</h2>
 
           <form className="next-form">
-            <Link to="/next" className="next-icon">
-              <ButtonNext className="next-button">
-                Next <NavigateNextIcon />
-              </ButtonNext>
-            </Link>
+            <RadioGroup className="radio-group">
+              <FormControlLabel className="label" value="1" control={<Radio/>} label="xunei"/>
+              <FormControlLabel className="label" value="2" control={<Radio/>} label="ursão"/>
+              <FormControlLabel className="label" value="3" control={<Radio/>} label="corno"/>
+              <FormControlLabel className="label" value="4" control={<Radio/>} label="gado"/>
+            </RadioGroup>
+            <div className="next-div">
+              <Link to="/next" className="next-icon">
+                <ButtonNext className="next-button">
+                  Next <NavigateNextIcon />
+                </ButtonNext>
+              </Link>
+            </div>
           </form>
         </div>
       </section>
